@@ -4,6 +4,8 @@
 
 <br />
 
+[Check this out in codesandbox](https://codesandbox.io/p/github/DominikWidomski/issue-forms-creator/draft/blazing-frost)!
+
 > build Issue Forms with forms with ease
 
 Issue Forms Creator is a generator for the [Github Issue Forms](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#creating-issue-forms) feature.
