@@ -1,0 +1,96 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "ng": {
+      "name": "ng",
+      "command": "npm run ng",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true,
+      "preview": {
+        "port": 4200
+      }
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "npm run watch",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "npm run test:watch",
+      "runAtStart": false
+    },
+    "test:update": {
+      "name": "test:update",
+      "command": "npm run test:update",
+      "runAtStart": false
+    },
+    "ct:run": {
+      "name": "ct:run",
+      "command": "npm run ct:run",
+      "runAtStart": false
+    },
+    "ct:open": {
+      "name": "ct:open",
+      "command": "npm run ct:open",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "prettier:write": {
+      "name": "prettier:write",
+      "command": "npm run prettier:write",
+      "runAtStart": false
+    },
+    "prettier:check": {
+      "name": "prettier:check",
+      "command": "npm run prettier:check",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "docs:json": {
+      "name": "docs:json",
+      "command": "npm run docs:json",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "npm run storybook",
+      "runAtStart": false
+    },
+    "build-storybook": {
+      "name": "build-storybook",
+      "command": "npm run build-storybook",
+      "runAtStart": false
+    }
+  }
+}
